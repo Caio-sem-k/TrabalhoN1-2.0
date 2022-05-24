@@ -1,0 +1,247 @@
+body{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    max-width: auto;
+    margin: 6%;
+    padding: 20px;
+    background-image: url(../Img/black-elegant-background-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nome1{
+    margin: 25px;
+    color: blueviolet;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: blueviolet
+}
+
+p{
+    font-weight: bold;
+    font-size: 15,7px;
+    margin: 20px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: initial;
+    flex-direction: column;
+}
+
+.NT{
+    font-size: 18px;
+    margin: 20px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.N2{
+    font-size: 15px;
+}
+
+input{
+     width: auto;
+     height: auto;
+}
+
+.Nome{
+    border-color:blueviolet
+}
+
+.E-mail{
+    border-color: blueviolet
+}
+
+.Enviar{
+    border-color: blueviolet;
+    cursor: pointer;
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+    font-family: sans-serif
+}
+
+.Nome:hover{
+    background-color: rgb(201, 201, 201)
+}
+
+.E-mail:hover{
+    background-color: rgb(201, 201, 201)
+}
+
+.Enviar:hover{
+    background-color: rgb(111, 7, 207)
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    min-width: 300px
+}
+
+button{
+    background-color: transparent;
+    opacity: 0.8;
+    color:aliceblue;
+    border: none;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: blueviolet;
+}
+
+button:focus ~ ul{
+    height: 250px ;
+}
+
+@media screen and (max-width: 1050px) {
+    img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30%;
+    }
+    
+    .id{
+        width: 200px;
+        height: 200px;
+    }
+   
+
+}
+
+@media screen and (max-width: 878px) {
+    img{
+        width: 200px;
+        height: 200px;
+        margin-top: 30% ;
+    }
+}
+
+@media screen and (max-width: 390px) {
+   body{
+       background-image: url(../Img/Design\ sem\ nome\ \(7\).png);
+       background-size: auto;
+      
+       
+   }
+   img{
+    margin-top: 300px;
+    margin-right: 10px;
+    width: 250px;
+    height: 250px
+}
+    div p{
+        width: 300px;
+        height: 60px;
+    }
+    form, p{
+        width: 300px;
+        height: 60px;
+    }
+
+    input{
+      margin: 20px;
+      height: 5px;
+
+    }
+
+    nav, ul{
+        flex-direction: column;
+        margin-right: 1%;
+    }
+    
+    ul{
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav{
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    button{
+        display: flex;
+        margin-right: -30px
+    } 
+
+    li, ul{
+        width: 100%;
+        margin-left: 40px
+    }
+     
+    .Enviar{
+        height: 50px;
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+
+
+    }
+
+    main{
+        flex-direction: column;
+    }
+}
+
+button:focus ~ nav{
+    height: 250px ;
+}
+
+    
